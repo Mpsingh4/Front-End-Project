@@ -1,0 +1,64 @@
+.whatWS__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.whatWS__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.whatWS__navbar-links-logo {
+  margin-right: 2rem;
+}
+
+.whatWS__navbar-links-logo img {
+  margin-right: 2rem;
+}
+
+.whatWS__navbar-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.whatWS__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.whatWS__navbar-links-container p,
+.whatWS__navbar-sign p,
+.whatWS__navbar-menu-container p {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.whatWS__navbar-sign button,
+.whatWS__navbar-menu-container button {
+  padding: 0.5rem 1 rem;
+  color: #ffffff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  left: 1153px;
+  top: 55px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+}
