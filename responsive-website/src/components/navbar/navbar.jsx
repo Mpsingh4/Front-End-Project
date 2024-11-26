@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo.svg';
 
-//menu for mobile here
+const Menu = () => (
+  <>
+          <p><a href='#home'>Home</a></p>
+          <p><a href='#whatWS'>What is GPT?</a></p>
+          <p><a href='#possibility'>Open AI</a></p>
+          <p><a href='#features'>Case Studies</a></p>
+          <p><a href='#blog'>Library</a></p>
+        </>
+)
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -41,4 +49,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-//<img src={logo} alt='logo' />
