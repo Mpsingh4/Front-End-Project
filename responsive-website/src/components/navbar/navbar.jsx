@@ -22,11 +22,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' />
         </div>
         <div className='whatWS__navbar-links-container'>
-          <p><a href='#home'>Home</a></p>
-          <p><a href='#whatWS'>What is GPT?</a></p>
-          <p><a href='#possibility'>Open AI</a></p>
-          <p><a href='#features'>Case Studies</a></p>
-          <p><a href='#blog'>Library</a></p>
+          <Menu />
         </div>
       </div>
       <div className='whatWS__navbar-sign'>
@@ -41,6 +37,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='whatWS__navbar-menu-container scale-up-center'>
             <div className='whatWS__navbar-menu-container-links'></div>
+            <Menu />
           </div>
         )}
       </div>

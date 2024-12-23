@@ -47,18 +47,66 @@
 
 .whatWS__navbar-sign button,
 .whatWS__navbar-menu-container button {
-  padding: 0.5rem 1 rem;
+  padding: 0.5rem 0.5rem;
   color: #ffffff;
   background: #ff4820;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  left: 1153px;
-  top: 55px;
+  /* left: 1153px;
+  top: 55px; */
   border-radius: 5px;
   border: 0;
   outline: none;
   cursor: pointer;
 
+}
+
+.whatWS__navbar-menu {
+  /* margin-left: 1rem; the display:none will end up hiding it. and clash with mobile */
+  display: flex; 
+  position: relative;
+}
+
+.whatWS__navbar-menu svg {
+  cursor: pointer;
+}
+
+.whatWS__navbar-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.whatWS__navbar-menu-container p {
+  margin: 1rem 0;
+}
+
+.whatWS__navbar-menu-container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .whatWS__navbar-links-container {
+    display: none;
+  }
+  .whatWS__navbar-menu {
+    display: flex;
+  }
+
+  .whatWS__navbar-menu-container {
+    display: flex;
+  }
 }
