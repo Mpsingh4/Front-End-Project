@@ -1,10 +1,22 @@
 import React from 'react'
 import './whatWS.css';
+import Feature from '../../components/feature/feature';
 
 const WhatWS = () => {
   return (
-    <div>
-      WhatWS
+    <div className='whatWS__whatgpt3 section_margin' id='whpt3'>
+      <div className='whatWS__whatgpt3-feature'>
+        <Feature />
+      </div>
+      <div className='WhatWS__whatgpt3-heading' >
+        <h1 className='gradient-text'>
+          The possibilities are beyond your imagination
+        </h1>
+        <p> Explore the Library</p>
+      </div>
+      <div className='whatWS__whatgpt3-container'>
+        <Feature />
+      </div>
     </div>
   )
 }
