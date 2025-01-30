@@ -16,6 +16,8 @@ const WhatWS = () => {
       </div>
       <div className='whatWS__whatgpt3-container'>
         <Feature />
+        <Feature />
+        <Feature />
       </div>
     </div>
   )
