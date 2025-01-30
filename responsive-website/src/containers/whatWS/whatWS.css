@@ -1,45 +1,43 @@
-.whatWS__whatwsp {
+.whatWS__container {
   display: flex;
   flex-direction: column;
   padding: 2rem;
   background: var(--color-footer);
-  background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-  background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
-  background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+  background: -moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+  background: -webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+  background: radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.whatWS__whatwsp-feature {
+.whatWS__feature {
   display: flex;
-
 }
 
-.whatWS__whatwsp-feature .pt3-features-container__feature {
+.whatWS__feature .whatWS__feature-item {
   margin: 0;
 }
 
-.whatWS__whatwsp-feature .pt3-features-container__feature-text {
+.whatWS__feature .whatWS__feature-text {
   max-width: 700px;
 }
 
-.whatWS__whatwsp-heading {
+.whatWS__heading {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   margin: 4rem 0 2rem;
-
 }
 
-.whatWS__whatwsp-heading h1 {
+.whatWS__heading h1 {
   font-size: 34px;
-    line-height: 45px;
-    font-weight: 800;
-    font-family: var(--font-family);
-    max-width: 510px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
 }
 
-.whatWS__whatwsp-heading p {
+.whatWS__heading p {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -48,16 +46,15 @@
   cursor: pointer;
 }
 
-.whatWS__whatwsp-container {
+.whatWS__feature-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
   margin-top: 2rem;
 }
 
-/* Customizing feature component as per needs */
-.whatWS__whatwsp-container .whatWSfeatures-container__feature {
+
+.whatWS__feature-container .whatWS__feature-item {
   flex: 1;
   margin: 1rem;
   min-width: 210px;
@@ -65,44 +62,43 @@
   flex-direction: column;
 }
 
-/* Customizing feature component as per needs */
-.whatWS__whatwsp-container .whatWSfeatures-container_feature-text {
+
+.whatWS__feature-container .whatWS__feature-text {
   margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-  .whatWSwhatwsp-heading {
-      flex-direction: column;
-      align-items: flex-start;
-      margin-bottom: 0rem;
+  .whatWS__heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
   }
 
-  .whatWSwhatwsp-heading p {
-      margin-top: 1rem;
+  .whatWS__heading p {
+    margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 650px) {
-  /* Customizing feature component as per needs */
-  .whatWSwhatwsp-feature .whatWSfeatures-container__feature {
-      flex-direction: column;
+  .whatWS__feature .whatWS__feature-item {
+    flex-direction: column;
   }
 
-  /* Customizing feature component as per needs */
-  .whatWSwhatwsp-feature .whatWSfeatures-container_feature-text {
-      margin-top: 0.5rem;
+  
+  .whatWS__feature .whatWS__feature-text {
+    margin-top: 0.5rem;
   }
 
-  .whatWSwhatwsp-heading h1 {
-      font-size: 28px;
-      line-height: 40px;
+  .whatWS__heading h1 {
+    font-size: 28px;
+    line-height: 40px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  /* Customizing feature component as per needs */
-  .whatWS__whatwsp-container .whatWS__features-container__feature {
-      margin: 1rem 0;
-      min-width: 100%;
+  
+  .whatWS__feature-container .whatWS__feature-item {
+    margin: 1rem 0;
+    min-width: 100%;
   }
 }
