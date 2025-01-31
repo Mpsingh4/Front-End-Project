@@ -4,7 +4,7 @@ import Features from '../features/features';
 
 const WhatWS = () => {
   return (
-    <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+    <div className="gpt3__whatgpt3 section__margin" id="whatWS">
     <div className="gpt3__whatgpt3-feature">
       <Features title="What is GPT-3" text="GPT-3 (Generative Pretrained Transformer 3) is a language model developed by OpenAI. It's an advanced AI model designed to generate human-like text based on the input it receives. GPT-3 uses deep learning and a transformer architecture to understand and generate text, making it capable of performing a wide range of language tasks like writing, summarizing, translating, and even answering questions with context." />
     </div>
