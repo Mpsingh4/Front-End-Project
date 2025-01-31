@@ -9,7 +9,7 @@
 
 .whatWS__features-container__features-text {
   flex: 2;
-  max-width: 390px;
+  max-width: 640px;
   display: flex;
   font-family: var(--font-family);
   font-style: normal;
@@ -23,7 +23,7 @@
   flex: 1;
   max-width: 180px;
   margin-right: 2rem;
-
+  margin-bottom: 1rem;
 }
 
 .whatWS__features-container__feature-title h1 {
@@ -42,4 +42,21 @@
   background: var(--gradient-bar);
   box-shadow: 0 4px 4px rgba(0,0,0,0.25);
   margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 550px) {
+  .whatWS__features-container__feature-title h1 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .whatWS__features-container__feature-title p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .whatWS__features-container__feature {
+    margin: 1rem 0;
+
+  }
 }
