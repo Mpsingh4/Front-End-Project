@@ -51,8 +51,17 @@
 .gpt3__whatgpt3-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   margin-top: 2rem;
+}
+
+.gpt3__whatgpt3-container > * {
+  flex: 1 1 45%; /* Each item takes up 45% of the container width */
+  margin-right: 10px; /* Optional: space between items */
+  margin-bottom: 10px; /* Optional: space below items */
+}
+
+.gpt3__whatgpt3-container > *:nth-child(2n) {
+  margin-right: 0; /* Remove margin from the second item in each row */
 }
 
 
