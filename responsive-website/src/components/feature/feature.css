@@ -5,9 +5,9 @@
   flex-direction: row;
 }
 
-.whatWS__features section__padding {
+/* .whatWS__features section__padding {
 
-}
+} */
 .whatWS__features-heading {
   flex: 1;
   display: flex;
@@ -35,9 +35,9 @@
   color: #ff8a71;
   margin-top: 2rem;
 } 
-.gradient__text {
+/* .gradient__text {
 
-}
+} */
 
 .whatWS__features-container {
   flex: 1.5;
