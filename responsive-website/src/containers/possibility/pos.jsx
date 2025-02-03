@@ -4,7 +4,7 @@ import possibilityImage from '../../assets/possibility.png';
 
 const Pos = () => {
   return (
-    <div className='whatWS__pos section__padding'>
+    <div className='whatWS__pos section__padding' id="possibility">
       <div className='whatWS__pos-image'>
         <img src={possibilityImage} alt="possibility"/>
       </div>

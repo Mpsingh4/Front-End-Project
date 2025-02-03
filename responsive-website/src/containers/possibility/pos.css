@@ -50,3 +50,16 @@
   font-size: 16px;
   line-height: 30px;
 }
+
+@media screen and (max-width: 950px){
+  .whatWS__pos {
+    flex-direction: column;
+  }
+  .whatWS__pos-image {
+    margin: 1rem 0;
+  }
+  .whatWS__pos-content {
+    margin-top: 2rem;
+  }
+}
+
