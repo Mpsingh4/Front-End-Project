@@ -3,8 +3,14 @@ import './cta.css';
 
 const CTA = () => {
   return (
-    <div>
-      CTA
+    <div className='whatWS__cta'>
+      <div className='whatWS__cta-content'>
+        <p>Request Early Access</p>
+        <h3>Register Today & Start Exploring</h3>
+      </div>
+      <div className='whatWS__cta-btn'>
+        <button type='button'>Get Started</button>
+      </div>
     </div>
   )
 }
