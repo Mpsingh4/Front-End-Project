@@ -11,13 +11,13 @@ const Blog = () => {
       </div>
       <div className='whatWS__blog-container'>
         <div className='whatWS__blog-container_groupA'>
-          <Article imgUrl={blog01} date='Feb 4, 2025' title='AI isthe future, Lets explore it.' />
+          <Article imgUrl={blog01} date='Feb 4, 2025' title='AI is the future, Lets explore it.' />
         </div>
         <div className='whatWS__blog-container_groupB'>
-        <Article imgUrl={blog02} date='Feb 4, 2025' title='AI isthe future, Lets explore it.' />
-        <Article imgUrl={blog03} date='Feb 4, 2025' title='AI isthe future, Lets explore it.' />
-        <Article imgUrl={blog04} date='Feb 4, 2025' title='AI isthe future, Lets explore it.' />
-        <Article imgUrl={blog05} date='Feb 4, 2025' title='AI isthe future, Lets explore it.' />
+        <Article imgUrl={blog02} date='Feb 4, 2025' title='AI is the future, Lets explore it.' />
+        <Article imgUrl={blog03} date='Feb 4, 2025' title='AI is the future, Lets explore it.' />
+        <Article imgUrl={blog04} date='Feb 4, 2025' title='AI is the future, Lets explore it.' />
+        <Article imgUrl={blog05} date='Feb 4, 2025' title='AI is the future, Lets explore it.' />
         </div>
         
       </div>
