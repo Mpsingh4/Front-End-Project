@@ -1,5 +1,7 @@
 import React from 'react'
 import './blog.css';
+import article from '../../components/article/article';
+
 
 const Blog = () => {
   return (
@@ -9,13 +11,13 @@ const Blog = () => {
       </div>
       <div className='whatWS__blog-container'>
         <div className='whatWS__blog-container_groupA'>
-          Article 
+          <article />
         </div>
-        <div className='whatWS__blog-container_groupA'>
-          article 
-          article 
-          article
-          article 
+        <div className='whatWS__blog-container_groupB'>
+          <article />
+          <article />
+          <article />
+          <article />
         </div>
         
       </div>
