@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css';
+import logo from '../../assets/logo.svg';
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
       </div>
       <div className='whatWS__footer-links'>
         <div className='whatWS__footer-link_logo'>
-          <img src='gpt3Logo' alt='logo' />
+          <img src={logo} alt='logo' />
           <p>All Rights Reserved 2025</p>
         </div>
         <div className='whatWS__footer-links_div'>
